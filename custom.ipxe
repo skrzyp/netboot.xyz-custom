@@ -25,7 +25,7 @@ initrd https://github.com/rancher/os/releases/download/v1.1.0-rc2/rancheros.iso
 boot || goto custom_exit
 
 :xenserver 
-set xs_version 7.2
+set xs_version 7.2.0
 set xs_mirror downloadns.citrix.com.edgesuite.net/11419/pxe
 set xs_type release/${xs_version}
 imgfree
